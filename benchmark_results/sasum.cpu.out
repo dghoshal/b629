@@ -1,0 +1,64 @@
+mySasum-100K: 100000
+Ok
+mySasum-200K: 200000
+Ok
+mySasum-300K: 300000
+Failed: stack overflow
+mySasum-400K: 400000
+Failed: stack overflow
+mySasum-500K: 500000
+Failed: stack overflow
+mySasum-600K: 600000
+Failed: stack overflow
+mySasum-700K: 700000
+Failed: stack overflow
+mySasum-800K: 800000
+Failed: stack overflow
+mySasum-900K: 900000
+Failed: stack overflow
+mySasum-1M: 1000000
+Failed: stack overflow
+mySasum-10N: 10
+Ok
+mySasum-100N: 100
+Ok
+mySasum-1K: 1000
+Ok
+mySasum-10K: 10000
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.469644 us (80001 iterations)
+found 1150 outliers among 79999 samples (1.4%)
+  1087 (1.4%) high severe
+estimating cost of a clock call...
+mean is 60.00915 ns (34 iterations)
+found 1 outliers among 34 samples (2.9%)
+  1 (2.9%) high mild
+
+benchmarking mySasum-100K
+collecting 100 samples, 1 iterations each, in estimated 35.53770 s
+mean: 357.5177 ms, lb 356.9686 ms, ub 358.0707 ms, ci 0.950
+std dev: 2.825626 ms, lb 2.550446 ms, ub 3.173949 ms, ci 0.950
+
+benchmarking mySasum-200K
+collecting 100 samples, 1 iterations each, in estimated 131.2699 s
+mean: 1.321018 s, lb 1.319428 s, ub 1.322576 s, ci 0.950
+std dev: 8.051528 ms, lb 7.206914 ms, ub 9.086967 ms, ci 0.950
+
+benchmarking mySasum-10N
+mean: 25.98331 us, lb 25.97631 us, ub 25.99093 us, ci 0.950
+std dev: 37.52941 ns, lb 33.03744 ns, ub 43.11236 ns, ci 0.950
+
+benchmarking mySasum-100N
+mean: 117.6668 us, lb 117.5838 us, ub 117.8474 us, ci 0.950
+std dev: 594.8487 ns, lb 340.1135 ns, ub 1.098709 us, ci 0.950
+
+benchmarking mySasum-1K
+mean: 1.030662 ms, lb 1.028702 ms, ub 1.032664 ms, ci 0.950
+std dev: 10.14715 us, lb 9.052604 us, ub 11.55103 us, ci 0.950
+
+benchmarking mySasum-10K
+mean: 12.45174 ms, lb 12.35324 ms, ub 12.82658 ms, ci 0.950
+std dev: 884.0108 us, lb 184.7621 us, ub 2.067257 ms, ci 0.950

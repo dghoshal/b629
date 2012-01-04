@@ -1,0 +1,415 @@
+mydotp-100K: 100000
+Ok
+mydotp-10: 10
+Ok
+mydotp-100: 100
+Ok
+mydotp-10K: 10000
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.344180 us (80001 iterations)
+found 1201 outliers among 79999 samples (1.5%)
+  1106 (1.4%) high severe
+estimating cost of a clock call...
+mean is 60.91270 ns (33 iterations)
+found 1 outliers among 33 samples (3.0%)
+  1 (3.0%) high mild
+
+benchmarking mydotp-100K
+collecting 100 samples, 1 iterations each, in estimated 57.42290 s
+mean: 578.3124 ms, lb 576.8163 ms, ub 580.7761 ms, ci 0.950
+std dev: 9.634926 ms, lb 6.359324 ms, ub 14.97578 ms, ci 0.950
+
+benchmarking mydotp-10
+mean: 34.44686 us, lb 34.43496 us, ub 34.48127 us, ci 0.950
+std dev: 94.87305 ns, lb 41.73399 ns, ub 205.8093 ns, ci 0.950
+
+benchmarking mydotp-100
+mean: 177.9758 us, lb 177.9027 us, ub 178.0773 us, ci 0.950
+std dev: 438.1885 ns, lb 328.2849 ns, ub 634.6355 ns, ci 0.950
+
+benchmarking mydotp-10K
+mean: 19.58640 ms, lb 19.54324 ms, ub 19.64240 ms, ci 0.950
+std dev: 250.0956 us, lb 207.0393 us, ub 338.1453 us, ci 0.950
+mydotp-100K: 100000
+Ok
+mydotp-100: 100
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.353741 us (80001 iterations)
+found 1211 outliers among 79999 samples (1.5%)
+  1094 (1.4%) high severe
+estimating cost of a clock call...
+mean is 60.75172 ns (33 iterations)
+found 3 outliers among 33 samples (9.1%)
+  3 (9.1%) high severe
+
+benchmarking mydotp-100K
+collecting 100 samples, 1 iterations each, in estimated 57.03149 s
+mean: 570.7317 ms, lb 569.1318 ms, ub 574.7229 ms, ci 0.950
+std dev: 12.05388 ms, lb 4.358101 ms, ub 23.28473 ms, ci 0.950
+
+benchmarking mydotp-100
+mean: 178.8883 us, lb 178.3234 us, ub 180.8918 us, ci 0.950
+std dev: 4.779134 us, lb 1.352017 us, ub 10.74129 us, ci 0.950
+mydotp-1K: 1000
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.276853 us (80001 iterations)
+found 22118 outliers among 79999 samples (27.6%)
+  3114 (3.9%) low severe
+  19004 (23.8%) high severe
+estimating cost of a clock call...
+mean is 60.71914 ns (33 iterations)
+found 2 outliers among 33 samples (6.1%)
+  1 (3.0%) low mild
+  1 (3.0%) high severe
+
+benchmarking mydotp-1K
+mean: 1.645288 ms, lb 1.639514 ms, ub 1.653319 ms, ci 0.950
+std dev: 34.56827 us, lb 27.36213 us, ub 46.76331 us, ci 0.950
+mydotp-10K: 10000
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.350194 us (80001 iterations)
+found 1190 outliers among 79999 samples (1.5%)
+  1093 (1.4%) high severe
+estimating cost of a clock call...
+mean is 60.54053 ns (33 iterations)
+found 1 outliers among 33 samples (3.0%)
+  1 (3.0%) high severe
+
+benchmarking mydotp-10K
+mean: 19.75830 ms, lb 19.71068 ms, ub 19.80971 ms, ci 0.950
+std dev: 252.6742 us, lb 229.7236 us, ub 280.6739 us, ci 0.950
+mydotp-100K: 100000
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.361418 us (80001 iterations)
+found 1221 outliers among 79999 samples (1.5%)
+  1123 (1.4%) high severe
+estimating cost of a clock call...
+mean is 61.15143 ns (33 iterations)
+found 4 outliers among 33 samples (12.1%)
+  1 (3.0%) high mild
+  3 (9.1%) high severe
+
+benchmarking mydotp-100K
+collecting 100 samples, 1 iterations each, in estimated 58.26499 s
+mean: 578.9859 ms, lb 576.7510 ms, ub 583.9895 ms, ci 0.950
+std dev: 16.23644 ms, lb 9.032646 ms, ub 32.30141 ms, ci 0.950
+mydotp-200K: 200000
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.360291 us (80001 iterations)
+found 1091 outliers among 79999 samples (1.4%)
+  1079 (1.3%) high severe
+estimating cost of a clock call...
+mean is 61.21722 ns (33 iterations)
+found 1 outliers among 33 samples (3.0%)
+  1 (3.0%) high mild
+
+benchmarking mydotp-200K
+collecting 100 samples, 1 iterations each, in estimated 213.3346 s
+mean: 2.137574 s, lb 2.130805 s, ub 2.148149 s, ci 0.950
+std dev: 42.64202 ms, lb 30.85928 ms, ub 60.71698 ms, ci 0.950
+mydotp-300K: 300000
+Failed: stack overflow
+mydotp-400K: 400000
+Failed: stack overflow
+mydotp-500K: 500000
+Failed: stack overflow
+mydotp-600K: 600000
+Failed: stack overflow
+mydotp-700K: 700000
+Failed: stack overflow
+mydotp-800K: 800000
+Failed: stack overflow
+mydotp-900K: 900000
+Failed: stack overflow
+mydotp-1M: 1000000
+Failed: stack overflow
+mySaxpy-100K: 100000
+Ok
+mySaxpy-10: 10
+Ok
+mySaxpy-100: 100
+Ok
+mySaxpy-10K: 10000
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.679884 us (80001 iterations)
+found 1133 outliers among 79999 samples (1.4%)
+  1104 (1.4%) high severe
+estimating cost of a clock call...
+mean is 60.95309 ns (35 iterations)
+found 1 outliers among 35 samples (2.9%)
+  1 (2.9%) high mild
+
+benchmarking mySaxpy-100K
+collecting 100 samples, 1 iterations each, in estimated 19.57140 s
+mean: 195.1756 ms, lb 194.9292 ms, ub 195.4395 ms, ci 0.950
+std dev: 1.310639 ms, lb 1.148048 ms, ub 1.552560 ms, ci 0.950
+
+benchmarking mySaxpy-10
+mean: 35.64307 us, lb 35.58300 us, ub 35.79965 us, ci 0.950
+std dev: 457.4103 ns, lb 135.3172 ns, ub 883.3068 ns, ci 0.950
+
+benchmarking mySaxpy-100
+mean: 222.1882 us, lb 221.8825 us, ub 222.8109 us, ci 0.950
+std dev: 2.157817 us, lb 1.157829 us, ub 3.438562 us, ci 0.950
+
+benchmarking mySaxpy-10K
+mean: 19.64771 ms, lb 19.49821 ms, ub 20.05217 ms, ci 0.950
+std dev: 1.160135 ms, lb 500.6375 us, ub 2.394131 ms, ci 0.950
+mySaxpy-100K: 100000
+Ok
+mySaxpy-100: 100
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.262768 us (80001 iterations)
+found 21927 outliers among 79999 samples (27.4%)
+  3331 (4.2%) low severe
+  18596 (23.2%) high severe
+estimating cost of a clock call...
+mean is 60.74388 ns (33 iterations)
+found 3 outliers among 33 samples (9.1%)
+  2 (6.1%) low mild
+  1 (3.0%) high severe
+
+benchmarking mySaxpy-100K
+collecting 100 samples, 1 iterations each, in estimated 19.24129 s
+mean: 193.8746 ms, lb 193.6612 ms, ub 194.1708 ms, ci 0.950
+std dev: 1.285978 ms, lb 962.8922 us, ub 1.732093 ms, ci 0.950
+
+benchmarking mySaxpy-100
+mean: 221.9034 us, lb 221.8421 us, ub 221.9649 us, ci 0.950
+std dev: 315.1656 ns, lb 283.6415 ns, ub 354.2665 ns, ci 0.950
+mySaxpy-1K: 1000
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.347229 us (80001 iterations)
+found 1177 outliers among 79999 samples (1.5%)
+  1073 (1.3%) high severe
+estimating cost of a clock call...
+mean is 61.09009 ns (33 iterations)
+found 1 outliers among 33 samples (3.0%)
+  1 (3.0%) high mild
+
+benchmarking mySaxpy-1K
+mean: 1.974165 ms, lb 1.971120 ms, ub 1.981033 ms, ci 0.950
+std dev: 22.17762 us, lb 11.46425 us, ub 38.95732 us, ci 0.950
+mySaxpy-10K: 10000
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.365054 us (80001 iterations)
+found 1093 outliers among 79999 samples (1.4%)
+  1048 (1.3%) high severe
+estimating cost of a clock call...
+mean is 61.17541 ns (33 iterations)
+found 2 outliers among 33 samples (6.1%)
+  1 (3.0%) high mild
+  1 (3.0%) high severe
+
+benchmarking mySaxpy-10K
+mean: 19.38758 ms, lb 19.36480 ms, ub 19.42047 ms, ci 0.950
+std dev: 138.9124 us, lb 103.1398 us, ub 194.5135 us, ci 0.950
+mySaxpy-100K: 100000
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.344043 us (80001 iterations)
+found 1085 outliers among 79999 samples (1.4%)
+  1025 (1.3%) high severe
+estimating cost of a clock call...
+mean is 60.58907 ns (33 iterations)
+found 1 outliers among 33 samples (3.0%)
+  1 (3.0%) high severe
+
+benchmarking mySaxpy-100K
+collecting 100 samples, 1 iterations each, in estimated 19.23409 s
+mean: 193.6147 ms, lb 193.4483 ms, ub 193.7955 ms, ci 0.950
+std dev: 889.3183 us, lb 796.6519 us, ub 1.004039 ms, ci 0.950
+mySaxpy-200K: 200000
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.354677 us (80001 iterations)
+found 1104 outliers among 79999 samples (1.4%)
+  1048 (1.3%) high severe
+estimating cost of a clock call...
+mean is 64.30009 ns (33 iterations)
+found 6 outliers among 33 samples (18.2%)
+  6 (18.2%) high severe
+
+benchmarking mySaxpy-200K
+collecting 100 samples, 1 iterations each, in estimated 38.85229 s
+mean: 389.9440 ms, lb 389.4828 ms, ub 390.4438 ms, ci 0.950
+std dev: 2.461789 ms, lb 2.199542 ms, ub 2.803078 ms, ci 0.950
+mySaxpy-300K: 300000
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.336342 us (80001 iterations)
+found 1076 outliers among 79999 samples (1.3%)
+  1065 (1.3%) high severe
+estimating cost of a clock call...
+mean is 60.37332 ns (33 iterations)
+found 3 outliers among 33 samples (9.1%)
+  2 (6.1%) high mild
+  1 (3.0%) high severe
+
+benchmarking mySaxpy-300K
+collecting 100 samples, 1 iterations each, in estimated 57.87611 s
+mean: 584.8904 ms, lb 583.9767 ms, ub 586.4409 ms, ci 0.950
+std dev: 5.958422 ms, lb 3.748490 ms, ub 9.293711 ms, ci 0.950
+mySaxpy-400K: 400000
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.344892 us (80001 iterations)
+found 1104 outliers among 79999 samples (1.4%)
+  1074 (1.3%) high severe
+estimating cost of a clock call...
+mean is 60.79904 ns (33 iterations)
+found 1 outliers among 33 samples (3.0%)
+  1 (3.0%) high severe
+
+benchmarking mySaxpy-400K
+collecting 100 samples, 1 iterations each, in estimated 76.95010 s
+mean: 776.9882 ms, lb 776.2601 ms, ub 778.2565 ms, ci 0.950
+std dev: 4.808644 ms, lb 3.007993 ms, ub 7.603999 ms, ci 0.950
+mySaxpy-500K: 500000
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.339316 us (80001 iterations)
+found 1075 outliers among 79999 samples (1.3%)
+  1054 (1.3%) high severe
+estimating cost of a clock call...
+mean is 61.59795 ns (33 iterations)
+found 7 outliers among 33 samples (21.2%)
+  7 (21.2%) high severe
+
+benchmarking mySaxpy-500K
+collecting 100 samples, 1 iterations each, in estimated 97.14530 s
+mean: 974.8076 ms, lb 973.2626 ms, ub 977.7691 ms, ci 0.950
+std dev: 10.47188 ms, lb 5.533077 ms, ub 17.36860 ms, ci 0.950
+mySaxpy-600K: 600000
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.341307 us (80001 iterations)
+found 1090 outliers among 79999 samples (1.4%)
+  1081 (1.4%) high severe
+estimating cost of a clock call...
+mean is 61.46743 ns (33 iterations)
+found 6 outliers among 33 samples (18.2%)
+  4 (12.1%) low mild
+  1 (3.0%) high mild
+  1 (3.0%) high severe
+
+benchmarking mySaxpy-600K
+collecting 100 samples, 1 iterations each, in estimated 114.9889 s
+mean: 1.173563 s, lb 1.171826 s, ub 1.176544 s, ci 0.950
+std dev: 11.40656 ms, lb 7.668739 ms, ub 18.71206 ms, ci 0.950
+mySaxpy-700K: 700000
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.372230 us (80001 iterations)
+found 1134 outliers among 79999 samples (1.4%)
+  1096 (1.4%) high severe
+estimating cost of a clock call...
+mean is 61.71842 ns (33 iterations)
+found 2 outliers among 33 samples (6.1%)
+  1 (3.0%) high mild
+  1 (3.0%) high severe
+
+benchmarking mySaxpy-700K
+collecting 100 samples, 1 iterations each, in estimated 135.1095 s
+mean: 1.365436 s, lb 1.363478 s, ub 1.368455 s, ci 0.950
+std dev: 12.18792 ms, lb 8.893917 ms, ub 19.64865 ms, ci 0.950
+mySaxpy-800K: 800000
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.362756 us (80001 iterations)
+found 1160 outliers among 79999 samples (1.5%)
+  1057 (1.3%) high severe
+estimating cost of a clock call...
+mean is 61.34045 ns (33 iterations)
+found 7 outliers among 33 samples (21.2%)
+  3 (9.1%) low mild
+  1 (3.0%) high mild
+  3 (9.1%) high severe
+
+benchmarking mySaxpy-800K
+collecting 100 samples, 1 iterations each, in estimated 156.6049 s
+mean: 1.562866 s, lb 1.561061 s, ub 1.565892 s, ci 0.950
+std dev: 11.70247 ms, lb 7.932412 ms, ub 19.01339 ms, ci 0.950
+mySaxpy-900K: 900000
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.354253 us (80001 iterations)
+found 1111 outliers among 79999 samples (1.4%)
+  1082 (1.4%) high severe
+estimating cost of a clock call...
+mean is 60.39398 ns (33 iterations)
+found 2 outliers among 33 samples (6.1%)
+  1 (3.0%) high mild
+  1 (3.0%) high severe
+
+benchmarking mySaxpy-900K
+collecting 100 samples, 1 iterations each, in estimated 172.7994 s
+mean: 1.749574 s, lb 1.747652 s, ub 1.752399 s, ci 0.950
+std dev: 11.83466 ms, lb 8.764499 ms, ub 15.46598 ms, ci 0.950
+mySaxpy-1M: 1000000
+Ok
+
+warming up
+estimating clock resolution...
+mean is 6.356632 us (80001 iterations)
+found 1085 outliers among 79999 samples (1.4%)
+  1057 (1.3%) high severe
+estimating cost of a clock call...
+mean is 61.92819 ns (33 iterations)
+found 5 outliers among 33 samples (15.2%)
+  1 (3.0%) low mild
+  1 (3.0%) high mild
+  3 (9.1%) high severe
+
+benchmarking mySaxpy-1M
+collecting 100 samples, 1 iterations each, in estimated 194.5311 s
+mean: 1.946682 s, lb 1.944316 s, ub 1.950847 s, ci 0.950
+std dev: 15.70014 ms, lb 10.46363 ms, ub 28.66661 ms, ci 0.950

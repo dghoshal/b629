@@ -1,0 +1,16 @@
+black-scholes: Ok
+
+warming up
+estimating clock resolution...
+mean is 6.290455 us (80001 iterations)
+found 22265 outliers among 79999 samples (27.8%)
+  2752 (3.4%) low severe
+  19513 (24.4%) high severe
+estimating cost of a clock call...
+mean is 60.17714 ns (33 iterations)
+found 1 outliers among 33 samples (3.0%)
+  1 (3.0%) high severe
+
+benchmarking black-scholes
+mean: 40.30892 ms, lb 39.72257 ms, ub 42.50370 ms, ci 0.950
+std dev: 5.205042 ms, lb 1.212335 ms, ub 12.10869 ms, ci 0.950

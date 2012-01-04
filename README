@@ -1,0 +1,18 @@
+The project directory contains two sub-directories:
+1. Example Benchmarks- The directory benchmarks/ contains the tests.
+   The benchmarks/tests/ directory contains the test and 
+   benchmarks/src/Test.hs contain the calls to the benchmark tests.
+
+2. Benchmark Results- The directory benchmark_results/ contain the
+   timings for different benchmarks we executed.
+
+Build and Execution
+--------------------
+
+The benchmarks can be built and installed using cabal. 
+
+For executing the corresponding benchmark, use the following command
+from .cabal/bin/ directory where the binary is installed:
+./benchmarks <benchmark-name>
+
+Example: ./benchmarks mydotp
